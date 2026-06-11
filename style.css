@@ -1,0 +1,104 @@
+body {
+    font-family: 'Sarabun', 'Tahoma', sans-serif;
+    background-color: #f4f6f8; /* สีพื้นหลังเทาอมฟ้าอ่อนๆ ไม่แสบตา */
+    color: #333333;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* กล่องจัดการหน้าต่างให้อยู่ตรงกลาง */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* เงาบางๆ ให้ดูมีมิติ */
+}
+
+/* ส่วนหัวข้อชื่อผู้จัดทำ */
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #edf2f7;
+    padding-bottom: 15px;
+}
+.header h1 {
+    font-size: 20px;
+    color: #1e3a8a; /* สีน้ำเงินเข้ม สุภาพ */
+    margin: 0 0 10px 0;
+}
+.link-back {
+    font-size: 14px;
+    color: #6b7280;
+    text-decoration: none;
+}
+.link-back:hover {
+    text-decoration: underline;
+}
+
+/* ส่วนของฟอร์มกรอกข้อมูล */
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #4b5563;
+}
+.input-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb; /* สีน้ำเงินดูตั้งใจเขียน */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-submit:hover {
+    background-color: #1d4ed8;
+}
+
+/* ส่วนแสดงผลลัพธ์สูตรคูณ */
+.result-section {
+    margin-top: 25px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+}
+.result-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+.multiplication-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 6px 0;
+    font-size: 16px;
+    border-bottom: 1px dashed #e2e8f0;
+}
+.multiplication-row:last-child {
+    border-bottom: none;
+}
+.total-value {
+    font-weight: bold;
+    color: #2563eb;
+}
